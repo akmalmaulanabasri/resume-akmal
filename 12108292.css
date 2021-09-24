@@ -1,0 +1,119 @@
+:root{
+    --warna-utama: #1D275A;
+    --warna-kedua: #6ffffc;
+    --warna-ketiga: #f441ff;
+    --putih:white;
+
+}
+
+* {
+    color: var(--warna-kedua);
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    display: grid;
+    /* background-color: var(--warna-utama); */
+    background-image: url(https://wallpapercave.com/wp/wp755089.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    border-radius: 20px 70px 20px 70px;
+    background-size: cover;
+}
+
+
+.kontak{
+    /* background-color: #fff; */
+    width: 30%;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    padding-right: 0px;
+    background: rgba(0, 255, 251, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+.desc{
+    /* background-color: #fff; */
+    width: 65%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 5px;
+    background: rgba( 0, 255, 249, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    font-size: 23px;
+    }
+
+.pend{
+    /* background-color: #fff; */
+    width: 65%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    background: rgba( 0, 255, 249, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+.skill{
+    /* background-color: #fff; */
+    width: 65%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;;
+    background: rgba( 0, 255, 249, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    }
+
+.inspirasi{
+    /* background-color: #fff; */
+    width: 65%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    background: rgba( 0, 255, 249, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+th,td{
+    border: 1px solid var(--warna-kedua);
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
